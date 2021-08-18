@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Shafee's Blog</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -15,12 +15,11 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="#!">Shafee's Blog</a>
+                <h1 class="navbar-brand">Shafee's Blog</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="../index.html#blog">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../index.html#blog">All Blogs</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,9 +33,11 @@
                         <!-- Post header-->
                         <header class="mb-4">
                             <!-- Post title-->
-                            <h1 class="fw-bolder mb-1">Under Construction!</h1>
+                            <h1 class="fw-bolder mb-1">Simple Android Library to generate unique ID</h1>
                             <!-- Post meta content-->
-                            <div class="text-muted fst-italic mb-2">Posted on January August 18, 2021 by Shafee</div>
+                            <div class="text-muted fst-italic mb-2">Posted on August 18, 2021 by 
+                                <a class="badge bg-primary text-decoration-none link-light" href="https://www.linkedin.com/in/rashid-al-shafee/">Shafee</a>
+                            </div>
                             <!-- Post categories-->
                             <a class="badge bg-secondary text-decoration-none link-light" href="#!">Android</a>
                             <a class="badge bg-secondary text-decoration-none link-light" href="#!">kotlin</a>
@@ -45,66 +46,70 @@
                         </header>
                         <!-- Post content-->
                         <section class="mb-5">
-                            <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>
-                            <p class="fs-5 mb-4">The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-5 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
-                            <h2 class="fw-bolder mb-4 mt-5">I have odd cosmic thoughts every day</h2>
-                            <p class="fs-5 mb-4">For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested.</p>
-                            <p class="fs-5 mb-4">Venus has a runaway greenhouse effect. I kind of want to know what happened there because we're twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It's bone dry today. Something bad happened there as well.</p>
+                            <p class="fs-5 mb-4">Hi there! Ah! this is my first blog. I just learned something interesting and sharing it here! </p>
+                            <p class="fs-5 mb-4">
+                                We all know about md5 hashing. It will turn a “string” to a unique id. 
+Here I developed a simple library using Md5 hashing technique of android and crc8 checksum which I found out when I faced a requirement few days ago.
+                            </p>
+                            <p class="fs-5 mb-4">
+                                You can convert a string to a unique id which will represent as "xxxx-xxxx-xxxx-xxxx"
+                            </p>
+                            <p class="fs-5 mb-4">
+                                You can find the library <a class="badge bg-primary text-decoration-none link-light" href= "https://github.com/rashshafee29/Md5HashCRC8-Library">here</a>
+                            </p>
+                            <h2 class="fw-bolder mb-4 mt-5">How to include in you project?</h2>
+                            <p class="fs-5 mb-4">
+                                Step 1. Add the JitPack repository to your build file for gradle Add it in your root build.gradle at the end of repositories
+                            </p>
+                            <script src="https://gist.github.com/rashshafee29/52436807e88989add26e39f43303593d.js"></script>
+                            <p class="fs-5 mb-4">
+                                Step 2. Add the dependency
+                            </p>
+                            <script src="https://gist.github.com/rashshafee29/3a425bb725d4a2e01cb2f92fe45487fb.js"></script>
+                            <h2 class="fw-bolder mb-4 mt-5">How to use?</h2>
+                            <script src="https://gist.github.com/rashshafee29/e03ff23d359945f0cb4a4370b35fc96d.js"></script>
+                            <h2 class="fw-bolder mb-4 mt-5">Sample Output</h2>
+                            <!-- Preview image figure-->
+                            <figure class="mb-4"><img class="img-fluid rounded" src="https://user-images.githubusercontent.com/16789770/128631374-56c791ce-1980-4803-8d96-f5904c54bc60.png" alt="..." /></figure>
+                            <p class="fs-5 mb-4">
+                                
+                            Please share your suggestions via comment box here!
+                            </p>
+                            <p class="fs-5 mb-4">Feel free to knock me for any queries.</p>
+                            <p class="fs-5 mb-4">
+                            #HappyCoding!
+                            Cheers!
+                            </p>
+                            
                         </section>
 
-                        <!-- Preview image figure-->
-                        <figure class="mb-4"><img class="img-fluid rounded" src="https://user-images.githubusercontent.com/16789770/128631374-56c791ce-1980-4803-8d96-f5904c54bc60.png" alt="..." /></figure>
                         
                     </article>
                     <!-- Comments section-->
                     <section class="mb-5">
                         <div class="card bg-light">
                             <div class="card-body">
-                                <!-- Comment form-->
-                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
-                                <!-- Comment with nested comments-->
-                                <div class="d-flex mb-4">
-                                    <!-- Parent comment-->
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
-                                        <!-- Child comment 1-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
-                                            </div>
-                                        </div>
-                                        <!-- Child comment 2-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                When you put money directly to a problem, it makes a good headline.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single comment-->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
-                                    </div>
-                                </div>
+                                <div class="commentbox"></div>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('5641330499780608-proj')</script>
                             </div>
                         </div>
                     </section>
                 </div>
                 <!-- Side widgets-->
-                <div class="col-lg-4">
-                    <div class="card mb-4">
-                        <div class="card-header">Share this</div>
-                        <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+                <div class="col-lg-2">
+                    <div class="badge">
+                        <div class="badge">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="badge">
+                            <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                            <script type="IN/Share" data-url="https://rashshafee29.github.io/blog/android-unique-id-library.html"></script>
+                        </div>
+                        <div class="badge">
+
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Frashshafee29.github.io%2Fblog%2Fandroid-unique-id-library.html&layout=button&size=small&appId=1440989012671447&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
